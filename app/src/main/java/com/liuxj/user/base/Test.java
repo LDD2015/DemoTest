@@ -5,4 +5,5 @@ package com.liuxj.user.base;
  */
 
 public class Test {
+    private int type;
 }
