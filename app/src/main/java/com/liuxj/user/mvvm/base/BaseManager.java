@@ -4,8 +4,6 @@ import com.google.gson.Gson;
 import com.liuxj.user.mvvm.inject.ApplicationComponent;
 import com.liuxj.user.mvvm.net.ClientAPI;
 
-import javax.inject.Inject;
-
 /**
  * BaseManager
  *
@@ -13,9 +11,9 @@ import javax.inject.Inject;
  */
 public abstract class BaseManager {
 
-    @Inject
+//    @Inject
     ClientAPI mApi;
-    @Inject
+//    @Inject
     Gson mGson;
 
     public BaseManager() {

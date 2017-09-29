@@ -19,7 +19,7 @@ public class MVVMActivity extends BindingActivity<ActivityLoginBinding> {
     }
 
     private void doLogin(){
-        getDataLayer();
+        getDataLayer().getAccountService().doLogin();
     }
 
 //    getDataLayer().getAccountService().login(phone, pass)

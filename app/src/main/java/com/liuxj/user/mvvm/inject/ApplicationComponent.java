@@ -5,17 +5,12 @@ import android.support.annotation.NonNull;
 
 import com.liuxj.user.mvvm.base.BaseActivity;
 import com.liuxj.user.mvvm.base.BaseManager;
-import com.liuxj.user.mvvm.inject.module.ApplicationModule;
-
-import javax.inject.Singleton;
-
-import dagger.Component;
 
 /**
  * Created by LiuXJ on 2017/9/15.
  */
-@Singleton
-@Component(modules = ApplicationModule.class)
+//@Singleton
+//@Component(modules = ApplicationModule.class)
 public interface ApplicationComponent {
     void inject(BaseActivity activity);
 
