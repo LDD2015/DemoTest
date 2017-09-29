@@ -1,7 +1,8 @@
 package com.liuxj.user.mvvm.net;
 
-import io.reactivex.Observable;
 
+import io.reactivex.Observable;
+import retrofit2.http.FormUrlEncoded;
 
 /**
  * Created by LiuXJ on 2017/9/15.
@@ -9,7 +10,7 @@ import io.reactivex.Observable;
 
 public class ClientAPI {
     @FormUrlEncoded
-    @POST("ArtLibrary/IsExitMobile")
+    @POST("...")
     Observable<Result> checkPhone(
             @Field("phone") String phone,
             @Field("token") String token);

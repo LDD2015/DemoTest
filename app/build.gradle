@@ -49,4 +49,6 @@ dependencies {
     //java注解
     //    compile 'org.glassfish:javax.annotation:10.0-b28'
     compile 'com.squareup.retrofit2:parent:2.3.0'
+    compile 'com.squareup.retrofit2:retrofit-converters:2.3.0'
+    compile 'com.squareup.retrofit2:retrofit-adapters:2.3.0'
 }
