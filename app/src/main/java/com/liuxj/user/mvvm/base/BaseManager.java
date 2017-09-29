@@ -17,7 +17,8 @@ public abstract class BaseManager {
     Gson mGson;
 
     public BaseManager() {
-        ApplicationComponent.Instance.get().inject(this);
+        mApi = new ClientAPI();
+//        ApplicationComponent.Instance.get().inject(this);
     }
 
     public ClientAPI getApi() {
