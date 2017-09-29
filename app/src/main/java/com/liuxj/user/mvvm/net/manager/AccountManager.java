@@ -13,6 +13,6 @@ import io.reactivex.Observable;
 public class AccountManager extends BaseManager implements AccountService{
     @Override
     public Observable<Result> doLogin() {
-        return null;
+        return getApi().;
     }
 }
