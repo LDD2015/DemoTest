@@ -1,6 +1,9 @@
 package com.liuxj.user.mvvm.net.manager;
 
+import com.liuxj.user.mvvm.net.Result;
 import com.liuxj.user.mvvm.net.inter.AccountService;
+
+import io.reactivex.Observable;
 
 /**
  * Created by LiuXJ on 2017/9/15.
@@ -8,7 +11,7 @@ import com.liuxj.user.mvvm.net.inter.AccountService;
 
 public class AccountManager implements AccountService{
     @Override
-    public void doLogin() {
-
+    public Observable<Result> doLogin() {
+        return null;
     }
 }
